@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TEMPLATES</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+   <h1>WELCOME TO RELATIVE URL TEMPLATES</h1>
+   <a href="{% url 'basic_app:other' %}">THE OTHER PAGE</a>
+   <a href="{% url 'admin:index' %}">LINK TO ADMIN PAGE</a>
+   <a href="{% url 'index' %}">LINK TO INDEX</a>
+  </body>
+</html>
